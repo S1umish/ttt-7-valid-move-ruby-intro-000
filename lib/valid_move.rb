@@ -1,8 +1,8 @@
 # code your #valid_move? method here
-@ttt_board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
+display_board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 puts "Enter a position on the board 1-9:"
 def input_to_index (user_input)
-  user_input.to_i-1
+  user_input.to_i - 1
   user_input =gets.chomp
   number_entered = user_input.to_i - 1
 def valid_move?(number_entered)
