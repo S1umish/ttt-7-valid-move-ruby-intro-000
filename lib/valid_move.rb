@@ -5,6 +5,7 @@ def input_to_index (user_input)
   user_input.to_i - 1
   user_input =gets.chomp
   number_entered = user_input.to_i - 1
+end
 def valid_move?(number_entered)
     number_entered.between?(0,8) && !(position_taken?(display_board,number_entered))
 end
