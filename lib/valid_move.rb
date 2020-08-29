@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-display_board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
+display_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Enter a position on the board 1-9:"
 def input_to_index (user_input)
   user_input.to_i - 1
